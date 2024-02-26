@@ -1,0 +1,1415 @@
+Z Project\AccountManager.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\AccountManager.java:4:	CommentRequired:	Class comments are required
+Z Project\AccountManager.java:5:	ImmutableField:	Field 'userAccounts' may be declared final
+Z Project\AccountManager.java:5:	CommentRequired:	Field comments are required
+Z Project\AccountManager.java:7:	CommentRequired:	Public method and constructor comments are required
+Z Project\AccountManager.java:11:	CommentRequired:	Public method and constructor comments are required
+Z Project\AccountManager.java:11:	MethodArgumentCouldBeFinal:	Parameter 'user' is not assigned and could be declared final
+Z Project\AccountManager.java:15:	CommentRequired:	Public method and constructor comments are required
+Z Project\AccountManager.java:15:	MethodArgumentCouldBeFinal:	Parameter 'username' is not assigned and could be declared final
+Z Project\AccountManager.java:16:	LocalVariableCouldBeFinal:	Local variable 'user' could be declared final
+Z Project\AccountManager.java:18:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\AccountManager.java:24:	CommentRequired:	Public method and constructor comments are required
+Z Project\AccountManager.java:24:	MethodArgumentCouldBeFinal:	Parameter 'username' is not assigned and could be declared final
+Z Project\AccountManager.java:24:	MethodArgumentCouldBeFinal:	Parameter 'password' is not assigned and could be declared final
+Z Project\AccountManager.java:25:	LocalVariableCouldBeFinal:	Local variable 'user' could be declared final
+Z Project\AccountManager.java:26:	BrokenNullCheck:	Dereferencing the qualifier of this expression will throw a NullPointerException
+Z Project\Catalog.java:2:	UnnecessaryImport:	Unused import 'java.lang.*'
+Z Project\Catalog.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Catalog.java:5:	CommentRequired:	Class comments are required
+Z Project\Catalog.java:5:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\Catalog.java:7:	ImmutableField:	Field 'products' may be declared final
+Z Project\Catalog.java:7:	CommentRequired:	Field comments are required
+Z Project\Catalog.java:7:	UseDiamondOperator:	Raw type use may be avoided by using a diamond: `new LinkedList<>()`
+Z Project\Catalog.java:8:	CommentRequired:	Field comments are required
+Z Project\Catalog.java:8:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\Catalog.java:11:	CommentRequired:	Public method and constructor comments are required
+Z Project\Catalog.java:12:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\Catalog.java:13:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Catalog.java:13:	UselessParentheses:	Useless parentheses.
+Z Project\Catalog.java:19:	CommentRequired:	Public method and constructor comments are required
+Z Project\Catalog.java:19:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Catalog.java:26:	CommentRequired:	Public method and constructor comments are required
+Z Project\Catalog.java:26:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Catalog.java:30:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\Catalog.java:31:	SystemPrintln:	Usage of System.out/err
+Z Project\Catalog.java:35:	CommentRequired:	Public method and constructor comments are required
+Z Project\Catalog.java:35:	MethodArgumentCouldBeFinal:	Parameter 'productName' is not assigned and could be declared final
+Z Project\Catalog.java:35:	MethodArgumentCouldBeFinal:	Parameter 'newQuantity' is not assigned and could be declared final
+Z Project\Catalog.java:36:	LocalVariableCouldBeFinal:	Local variable 'productIterator' could be declared final
+Z Project\Catalog.java:38:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\Catalog.java:41:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Catalog.java:49:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectOutputStream' is already in scope because it is imported in this file
+Z Project\Catalog.java:49:	MethodArgumentCouldBeFinal:	Parameter 'output' is not assigned and could be declared final
+Z Project\Catalog.java:54:	SystemPrintln:	Usage of System.out/err
+Z Project\Catalog.java:57:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectInputStream' is already in scope because it is imported in this file
+Z Project\Catalog.java:57:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\Catalog.java:60:	UnnecessaryReturn:	Unnecessary return statement
+Z Project\Catalog.java:63:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\Catalog.java:63:	NullAssignment:	Assigning an Object to null is a code smell.  Consider refactoring.
+Z Project\Catalog.java:70:	SystemPrintln:	Usage of System.out/err
+Z Project\Catalog.java:72:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Catalog.java:75:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\ClerkState.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\ClerkState.java:5:	CommentRequired:	Class comments are required
+Z Project\ClerkState.java:5:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\ClerkState.java:5:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Z Project\ClerkState.java:6:	ImmutableField:	Field 'reader' may be declared final
+Z Project\ClerkState.java:6:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:7:	UnusedPrivateField:	Avoid unused private fields such as 'warehouse'.
+Z Project\ClerkState.java:7:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:8:	UnusedPrivateField:	Avoid unused private fields such as 'context'.
+Z Project\ClerkState.java:8:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:9:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:9:	AvoidFieldNameMatchingMethodName:	Field instance has the same name as a method
+Z Project\ClerkState.java:10:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:11:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:13:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:14:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:15:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:16:	AvoidFieldNameMatchingMethodName:	Field LOGOUT has the same name as a method
+Z Project\ClerkState.java:16:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:17:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:18:	AvoidFieldNameMatchingMethodName:	Field HELP has the same name as a method
+Z Project\ClerkState.java:18:	CommentRequired:	Field comments are required
+Z Project\ClerkState.java:21:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'warehouse' in a constructor.
+Z Project\ClerkState.java:26:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\ClerkState.java:32:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:32:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClerkState.java:35:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:36:	LocalVariableCouldBeFinal:	Local variable 'line' could be declared final
+Z Project\ClerkState.java:37:	LocalVariableCouldBeFinal:	Local variable 'tokenizer' could be declared final
+Z Project\ClerkState.java:37:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ClerkState.java:42:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\ClerkState.java:44:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClerkState.java:46:	UnusedPrivateMethod:	Avoid unused private methods such as 'yesOrNo(String)'.
+Z Project\ClerkState.java:46:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClerkState.java:47:	LocalVariableCouldBeFinal:	Local variable 'more' could be declared final
+Z Project\ClerkState.java:48:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+Z Project\ClerkState.java:49:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\ClerkState.java:53:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:53:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClerkState.java:56:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\ClerkState.java:57:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+Z Project\ClerkState.java:58:	UnnecessaryBoxing:	Unnecessary explicit unboxing
+Z Project\ClerkState.java:60:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:62:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClerkState.java:64:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:64:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClerkState.java:67:	LocalVariableCouldBeFinal:	Local variable 'date' could be declared final
+Z Project\ClerkState.java:67:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ClerkState.java:68:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\ClerkState.java:69:	ShortVariable:	Avoid variables with short names like df
+Z Project\ClerkState.java:69:	LocalVariableCouldBeFinal:	Local variable 'df' could be declared final
+Z Project\ClerkState.java:72:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\ClerkState.java:73:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:75:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClerkState.java:77:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:80:	LocalVariableCouldBeFinal:	Local variable 'value' could be declared final
+Z Project\ClerkState.java:85:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:87:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClerkState.java:90:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:91:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:92:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:93:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:94:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:95:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:96:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:97:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:98:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:99:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:102:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:103:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\ClerkState.java:104:	LocalVariableCouldBeFinal:	Local variable 'address' could be declared final
+Z Project\ClerkState.java:105:	LocalVariableCouldBeFinal:	Local variable 'phone' could be declared final
+Z Project\ClerkState.java:107:	LocalVariableCouldBeFinal:	Local variable 'newMember' could be declared final
+Z Project\ClerkState.java:109:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:111:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:115:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:116:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\ClerkState.java:117:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\ClerkState.java:118:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\ClerkState.java:120:	LocalVariableCouldBeFinal:	Local variable 'newProduct' could be declared final
+Z Project\ClerkState.java:122:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:124:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:129:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:130:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:131:	LocalVariableCouldBeFinal:	Local variable 'productIterator' could be declared final
+Z Project\ClerkState.java:133:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\ClerkState.java:134:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:135:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:136:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:137:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:138:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:141:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:141:	MethodNamingConventions:	The instance method name 'SaveDatabase' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\ClerkState.java:144:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+Z Project\ClerkState.java:144:	LocalVariableCouldBeFinal:	Local variable 'memberListFile' could be declared final
+Z Project\ClerkState.java:144:	AvoidFileStream:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+Z Project\ClerkState.java:145:	CloseResource:	Ensure that resources like this ObjectOutputStream object are closed after use
+Z Project\ClerkState.java:145:	LocalVariableCouldBeFinal:	Local variable 'memberListOut' could be declared final
+Z Project\ClerkState.java:151:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+Z Project\ClerkState.java:151:	LocalVariableCouldBeFinal:	Local variable 'catalogFile' could be declared final
+Z Project\ClerkState.java:151:	AvoidFileStream:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+Z Project\ClerkState.java:152:	CloseResource:	Ensure that resources like this ObjectOutputStream object are closed after use
+Z Project\ClerkState.java:152:	LocalVariableCouldBeFinal:	Local variable 'catalogOut' could be declared final
+Z Project\ClerkState.java:157:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:159:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:166:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:168:	LocalVariableCouldBeFinal:	Local variable 'userID' could be declared final
+Z Project\ClerkState.java:170:	UselessParentheses:	Useless parentheses.
+Z Project\ClerkState.java:171:	UselessParentheses:	Useless parentheses.
+Z Project\ClerkState.java:174:	ControlStatementBraces:	This statement should have braces
+Z Project\ClerkState.java:174:	SystemPrintln:	Usage of System.out/err
+Z Project\ClerkState.java:177:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:179:	UselessParentheses:	Useless parentheses.
+Z Project\ClerkState.java:183:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClerkState.java:186:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\ClerkState.java:187:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\ClerkState.java:206:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:2:	UnnecessaryImport:	Unused import 'java.text.*'
+Z Project\ClientState.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\ClientState.java:4:	CommentRequired:	Class comments are required
+Z Project\ClientState.java:4:	GodClass:	Possible God Class (WMC=60, ATFD=14, TCC=9.890%)
+Z Project\ClientState.java:4:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\ClientState.java:4:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Z Project\ClientState.java:5:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:5:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\ClientState.java:6:	ImmutableField:	Field 'reader' may be declared final
+Z Project\ClientState.java:6:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:7:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:8:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:9:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:10:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:11:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:12:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:13:	AvoidFieldNameMatchingMethodName:	Field LOGOUT has the same name as a method
+Z Project\ClientState.java:13:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:14:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:15:	AvoidFieldNameMatchingMethodName:	Field HELP has the same name as a method
+Z Project\ClientState.java:15:	CommentRequired:	Field comments are required
+Z Project\ClientState.java:16:	CallSuperInConstructor:	It is a good practice to call super() in a constructor
+Z Project\ClientState.java:18:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'warehouse' in a constructor.
+Z Project\ClientState.java:21:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:22:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\ClientState.java:23:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\ClientState.java:28:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:28:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClientState.java:31:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:32:	LocalVariableCouldBeFinal:	Local variable 'line' could be declared final
+Z Project\ClientState.java:33:	LocalVariableCouldBeFinal:	Local variable 'tokenizer' could be declared final
+Z Project\ClientState.java:33:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ClientState.java:38:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\ClientState.java:40:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClientState.java:42:	UnusedPrivateMethod:	Avoid unused private methods such as 'yesOrNo(String)'.
+Z Project\ClientState.java:42:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClientState.java:43:	LocalVariableCouldBeFinal:	Local variable 'more' could be declared final
+Z Project\ClientState.java:44:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+Z Project\ClientState.java:45:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\ClientState.java:49:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:49:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ClientState.java:52:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\ClientState.java:53:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+Z Project\ClientState.java:54:	UnnecessaryBoxing:	Unnecessary explicit unboxing
+Z Project\ClientState.java:56:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:58:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClientState.java:61:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:64:	LocalVariableCouldBeFinal:	Local variable 'value' could be declared final
+Z Project\ClientState.java:69:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:71:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ClientState.java:74:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:75:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\ClientState.java:77:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\ClientState.java:78:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:81:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:84:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:85:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\ClientState.java:87:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\ClientState.java:88:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\ClientState.java:89:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:92:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:95:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:95:	CognitiveComplexity:	The method 'processWishlist()' has a cognitive complexity of 26, current threshold is 15
+Z Project\ClientState.java:95:	CyclomaticComplexity:	The method 'processWishlist()' has a cyclomatic complexity of 12.
+Z Project\ClientState.java:97:	LocalVariableCouldBeFinal:	Local variable 'Name' could be declared final
+Z Project\ClientState.java:97:	LocalVariableNamingConventions:	The local variable name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\ClientState.java:98:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\ClientState.java:99:	LocalVariableCouldBeFinal:	Local variable 'wishIter' could be declared final
+Z Project\ClientState.java:101:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:102:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:103:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:104:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:107:	LocalVariableCouldBeFinal:	Local variable 'wish' could be declared final
+Z Project\ClientState.java:107:	UselessParentheses:	Useless parentheses.
+Z Project\ClientState.java:108:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:109:	LocalVariableCouldBeFinal:	Local variable 'choice' could be declared final
+Z Project\ClientState.java:110:	SwitchDensity:	A high ratio of statements to labels in a switch statement.  Consider refactoring.
+Z Project\ClientState.java:110:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\ClientState.java:112:	LocalVariableCouldBeFinal:	Local variable 'success' could be declared final
+Z Project\ClientState.java:114:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:115:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+Z Project\ClientState.java:116:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:118:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:121:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+Z Project\ClientState.java:123:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\ClientState.java:123:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ClientState.java:124:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\ClientState.java:126:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:128:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:131:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:137:	LocalVariableCouldBeFinal:	Local variable 'newQuantity' could be declared final
+Z Project\ClientState.java:139:	LocalVariableCouldBeFinal:	Local variable 'done' could be declared final
+Z Project\ClientState.java:141:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:142:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+Z Project\ClientState.java:143:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:145:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:153:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:153:	CognitiveComplexity:	The method 'modifyWishlist()' has a cognitive complexity of 25, current threshold is 15
+Z Project\ClientState.java:153:	CyclomaticComplexity:	The method 'modifyWishlist()' has a cyclomatic complexity of 11.
+Z Project\ClientState.java:155:	LocalVariableCouldBeFinal:	Local variable 'Name' could be declared final
+Z Project\ClientState.java:155:	LocalVariableNamingConventions:	The local variable name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\ClientState.java:156:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\ClientState.java:157:	LocalVariableCouldBeFinal:	Local variable 'wishIter' could be declared final
+Z Project\ClientState.java:159:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:160:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:161:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:162:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:163:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:166:	LocalVariableCouldBeFinal:	Local variable 'wish' could be declared final
+Z Project\ClientState.java:166:	UselessParentheses:	Useless parentheses.
+Z Project\ClientState.java:167:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:168:	LocalVariableCouldBeFinal:	Local variable 'choice' could be declared final
+Z Project\ClientState.java:169:	SwitchDensity:	A high ratio of statements to labels in a switch statement.  Consider refactoring.
+Z Project\ClientState.java:169:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\ClientState.java:171:	LocalVariableCouldBeFinal:	Local variable 'productName' could be declared final
+Z Project\ClientState.java:173:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\ClientState.java:175:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\ClientState.java:177:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\ClientState.java:179:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\ClientState.java:179:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ClientState.java:180:	LocalVariableCouldBeFinal:	Local variable 'added' could be declared final
+Z Project\ClientState.java:183:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:185:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:188:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:191:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+Z Project\ClientState.java:193:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\ClientState.java:193:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ClientState.java:194:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\ClientState.java:196:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:198:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:201:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:207:	LocalVariableCouldBeFinal:	Local variable 'newQuantity' could be declared final
+Z Project\ClientState.java:209:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:223:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:224:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:227:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:228:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:229:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:230:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:231:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:232:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:233:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:234:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:235:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:236:	SystemPrintln:	Usage of System.out/err
+Z Project\ClientState.java:241:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:244:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\ClientState.java:245:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\ClientState.java:266:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:270:	CommentRequired:	Public method and constructor comments are required
+Z Project\ClientState.java:272:	UselessParentheses:	Useless parentheses.
+Z Project\ClientState.java:272:	LawOfDemeter:	Access to field `IsClerk` on foreign value `` (degree 1)
+Z Project\ClientState.java:274:	UselessParentheses:	Useless parentheses.
+Z Project\ClientState.java:276:	LawOfDemeter:	Access to field `IsClient` on foreign value `` (degree 1)
+Z Project\ClientState.java:278:	UselessParentheses:	Useless parentheses.
+Z Project\ClientState.java:281:	ControlStatementBraces:	This statement should have braces
+Z Project\ClientState.java:281:	UselessParentheses:	Useless parentheses.
+Z Project\InvoiceList.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\InvoiceList.java:4:	CommentRequired:	Class comments are required
+Z Project\InvoiceList.java:4:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\InvoiceList.java:4:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Z Project\InvoiceList.java:5:	ImmutableField:	Field 'invoices' may be declared final
+Z Project\InvoiceList.java:5:	CommentRequired:	Field comments are required
+Z Project\InvoiceList.java:5:	UseDiamondOperator:	Raw type use may be avoided by using a diamond: `new LinkedList<>()`
+Z Project\InvoiceList.java:6:	CommentRequired:	Field comments are required
+Z Project\InvoiceList.java:6:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\InvoiceList.java:8:	CommentRequired:	Public method and constructor comments are required
+Z Project\InvoiceList.java:9:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\InvoiceList.java:10:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\InvoiceList.java:10:	UselessParentheses:	Useless parentheses.
+Z Project\InvoiceList.java:16:	CommentRequired:	Public method and constructor comments are required
+Z Project\InvoiceList.java:16:	MethodArgumentCouldBeFinal:	Parameter 'rec' is not assigned and could be declared final
+Z Project\InvoiceList.java:21:	CommentRequired:	Public method and constructor comments are required
+Z Project\InvoiceList.java:21:	MethodArgumentCouldBeFinal:	Parameter 'rec' is not assigned and could be declared final
+Z Project\InvoiceList.java:22:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'removed'
+Z Project\InvoiceList.java:22:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\Item.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Item.java:4:	ShortClassName:	Avoid short class names like Item
+Z Project\Item.java:4:	CommentRequired:	Class comments are required
+Z Project\Item.java:4:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Item.java:5:	ImmutableField:	Field 'product' may be declared final
+Z Project\Item.java:5:	CommentRequired:	Field comments are required
+Z Project\Item.java:6:	ImmutableField:	Field 'member' may be declared final
+Z Project\Item.java:6:	CommentRequired:	Field comments are required
+Z Project\Item.java:7:	CommentRequired:	Field comments are required
+Z Project\Item.java:8:	ImmutableField:	Field 'price' may be declared final
+Z Project\Item.java:8:	CommentRequired:	Field comments are required
+Z Project\Item.java:10:	CommentRequired:	Public method and constructor comments are required
+Z Project\Item.java:10:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Item.java:10:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Item.java:10:	MethodArgumentCouldBeFinal:	Parameter 'quantity' is not assigned and could be declared final
+Z Project\Item.java:10:	MethodArgumentCouldBeFinal:	Parameter 'price' is not assigned and could be declared final
+Z Project\Item.java:30:	ShortVariable:	Avoid variables with short names like x
+Z Project\Item.java:30:	MethodArgumentCouldBeFinal:	Parameter 'x' is not assigned and could be declared final
+Z Project\Item.java:35:	MethodArgumentCouldBeFinal:	Parameter 'obj' is not assigned and could be declared final
+Z Project\Item.java:36:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Item.java:36:	ControlStatementBraces:	This statement should have braces
+Z Project\Item.java:37:	BrokenNullCheck:	Dereferencing the qualifier of this expression will throw a NullPointerException
+Z Project\Item.java:37:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Item.java:37:	ControlStatementBraces:	This statement should have braces
+Z Project\Item.java:38:	LocalVariableCouldBeFinal:	Local variable 'other' could be declared final
+Z Project\Item.java:49:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\LoginState.java:2:	UnnecessaryImport:	Unused import 'java.text.*'
+Z Project\LoginState.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\LoginState.java:5:	CommentRequired:	Class comments are required
+Z Project\LoginState.java:5:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\LoginState.java:6:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:7:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:8:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:9:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:10:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:11:	UnusedPrivateField:	Avoid unused private fields such as 'context'.
+Z Project\LoginState.java:11:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:12:	CommentRequired:	Field comments are required
+Z Project\LoginState.java:12:	AvoidFieldNameMatchingMethodName:	Field instance has the same name as a method
+Z Project\LoginState.java:19:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\LoginState.java:25:	CommentRequired:	Public method and constructor comments are required
+Z Project\LoginState.java:28:	LocalVariableCouldBeFinal:	Local variable 'value' could be declared final
+Z Project\LoginState.java:33:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:35:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\LoginState.java:38:	CommentRequired:	Public method and constructor comments are required
+Z Project\LoginState.java:38:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\LoginState.java:41:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:42:	LocalVariableCouldBeFinal:	Local variable 'line' could be declared final
+Z Project\LoginState.java:43:	LocalVariableCouldBeFinal:	Local variable 'tokenizer' could be declared final
+Z Project\LoginState.java:43:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\LoginState.java:48:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\LoginState.java:50:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\LoginState.java:53:	UnusedPrivateMethod:	Avoid unused private methods such as 'yesOrNo(String)'.
+Z Project\LoginState.java:53:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\LoginState.java:54:	LocalVariableCouldBeFinal:	Local variable 'more' could be declared final
+Z Project\LoginState.java:55:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+Z Project\LoginState.java:56:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\LoginState.java:60:	MethodArgumentCouldBeFinal:	Parameter 'user' is not assigned and could be declared final
+Z Project\LoginState.java:60:	MethodArgumentCouldBeFinal:	Parameter 'pass' is not assigned and could be declared final
+Z Project\LoginState.java:60:	MethodArgumentCouldBeFinal:	Parameter 'role' is not assigned and could be declared final
+Z Project\LoginState.java:61:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+Z Project\LoginState.java:62:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+Z Project\LoginState.java:63:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\LoginState.java:66:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\LoginState.java:69:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+Z Project\LoginState.java:69:	AvoidDuplicateLiterals:	The String literal "manager" appears 4 times in this file; the first occurrence is on line 69
+Z Project\LoginState.java:70:	SimplifyBooleanReturns:	This if statement can be replaced by `return {condition};`
+Z Project\LoginState.java:71:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\LoginState.java:74:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\LoginState.java:83:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+Z Project\LoginState.java:83:	LocalVariableCouldBeFinal:	Local variable 'scanner' could be declared final
+Z Project\LoginState.java:85:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:86:	LocalVariableCouldBeFinal:	Local variable 'userName' could be declared final
+Z Project\LoginState.java:87:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:88:	LocalVariableCouldBeFinal:	Local variable 'password' could be declared final
+Z Project\LoginState.java:89:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\LoginState.java:90:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:91:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:94:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:99:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+Z Project\LoginState.java:99:	LocalVariableCouldBeFinal:	Local variable 'scanner' could be declared final
+Z Project\LoginState.java:101:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:102:	LocalVariableCouldBeFinal:	Local variable 'userName' could be declared final
+Z Project\LoginState.java:103:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:104:	LocalVariableCouldBeFinal:	Local variable 'password' could be declared final
+Z Project\LoginState.java:105:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+Z Project\LoginState.java:106:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:107:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:110:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:115:	LocalVariableCouldBeFinal:	Local variable 'userID' could be declared final
+Z Project\LoginState.java:117:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:118:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:119:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:122:	ControlStatementBraces:	This statement should have braces
+Z Project\LoginState.java:122:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:125:	CommentRequired:	Public method and constructor comments are required
+Z Project\LoginState.java:127:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:131:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\LoginState.java:132:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:133:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:142:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:145:	SystemPrintln:	Usage of System.out/err
+Z Project\LoginState.java:150:	UselessParentheses:	Useless parentheses.
+Z Project\LoginState.java:153:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\ManagerState.java:4:	CommentRequired:	Class comments are required
+Z Project\ManagerState.java:4:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\ManagerState.java:4:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Z Project\ManagerState.java:5:	ImmutableField:	Field 'reader' may be declared final
+Z Project\ManagerState.java:5:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:6:	UnusedPrivateField:	Avoid unused private fields such as 'warehouse'.
+Z Project\ManagerState.java:6:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:7:	UnusedPrivateField:	Avoid unused private fields such as 'context'.
+Z Project\ManagerState.java:7:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:8:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:8:	AvoidFieldNameMatchingMethodName:	Field instance has the same name as a method
+Z Project\ManagerState.java:9:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:10:	LongVariable:	Avoid excessively long variable names like MODIFY_PRODUCT_PRICE
+Z Project\ManagerState.java:10:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:11:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:12:	LongVariable:	Avoid excessively long variable names like FREEZE_UNFREEZE_CLIENT
+Z Project\ManagerState.java:12:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:13:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:14:	AvoidFieldNameMatchingMethodName:	Field LOGOUT has the same name as a method
+Z Project\ManagerState.java:14:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:15:	AvoidFieldNameMatchingMethodName:	Field HELP has the same name as a method
+Z Project\ManagerState.java:15:	CommentRequired:	Field comments are required
+Z Project\ManagerState.java:18:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'warehouse' in a constructor.
+Z Project\ManagerState.java:23:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\ManagerState.java:29:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:29:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ManagerState.java:32:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:33:	LocalVariableCouldBeFinal:	Local variable 'line' could be declared final
+Z Project\ManagerState.java:34:	LocalVariableCouldBeFinal:	Local variable 'tokenizer' could be declared final
+Z Project\ManagerState.java:34:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ManagerState.java:39:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\ManagerState.java:41:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ManagerState.java:43:	UnusedPrivateMethod:	Avoid unused private methods such as 'yesOrNo(String)'.
+Z Project\ManagerState.java:43:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ManagerState.java:44:	LocalVariableCouldBeFinal:	Local variable 'more' could be declared final
+Z Project\ManagerState.java:45:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+Z Project\ManagerState.java:46:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\ManagerState.java:50:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:50:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ManagerState.java:53:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\ManagerState.java:54:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+Z Project\ManagerState.java:55:	UnnecessaryBoxing:	Unnecessary explicit unboxing
+Z Project\ManagerState.java:57:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:59:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ManagerState.java:61:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:61:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\ManagerState.java:64:	LocalVariableCouldBeFinal:	Local variable 'date' could be declared final
+Z Project\ManagerState.java:64:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\ManagerState.java:65:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\ManagerState.java:66:	ShortVariable:	Avoid variables with short names like df
+Z Project\ManagerState.java:66:	LocalVariableCouldBeFinal:	Local variable 'df' could be declared final
+Z Project\ManagerState.java:69:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\ManagerState.java:70:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:72:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ManagerState.java:74:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:75:	UnusedLocalVariable:	Avoid unused local variables such as 'command'.
+Z Project\ManagerState.java:78:	LocalVariableCouldBeFinal:	Local variable 'value' could be declared final
+Z Project\ManagerState.java:83:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:85:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\ManagerState.java:88:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:89:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:90:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:91:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:92:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:93:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:94:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:95:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:96:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:99:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:100:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:102:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:103:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:105:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:106:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:108:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:109:	LocalVariableCouldBeFinal:	Local variable 'userID' could be declared final
+Z Project\ManagerState.java:110:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+Z Project\ManagerState.java:111:	UselessParentheses:	Useless parentheses.
+Z Project\ManagerState.java:112:	UselessParentheses:	Useless parentheses.
+Z Project\ManagerState.java:115:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:124:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:124:	MethodNamingConventions:	The instance method name 'Clerkmenu' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\ManagerState.java:126:	LocalVariableCouldBeFinal:	Local variable 'userID' could be declared final
+Z Project\ManagerState.java:128:	UselessParentheses:	Useless parentheses.
+Z Project\ManagerState.java:129:	UselessParentheses:	Useless parentheses.
+Z Project\ManagerState.java:132:	ControlStatementBraces:	This statement should have braces
+Z Project\ManagerState.java:132:	SystemPrintln:	Usage of System.out/err
+Z Project\ManagerState.java:135:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:137:	UselessParentheses:	Useless parentheses.
+Z Project\ManagerState.java:141:	CommentRequired:	Public method and constructor comments are required
+Z Project\ManagerState.java:144:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\ManagerState.java:145:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\ManagerState.java:162:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Member.java:4:	CommentRequired:	Class comments are required
+Z Project\Member.java:4:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Member.java:6:	ShortVariable:	Avoid variables with short names like id
+Z Project\Member.java:6:	ImmutableField:	Field 'id' may be declared final
+Z Project\Member.java:6:	CommentRequired:	Field comments are required
+Z Project\Member.java:7:	CommentRequired:	Field comments are required
+Z Project\Member.java:8:	CommentRequired:	Field comments are required
+Z Project\Member.java:9:	CommentRequired:	Field comments are required
+Z Project\Member.java:10:	CommentRequired:	Field comments are required
+Z Project\Member.java:11:	ImmutableField:	Field 'wishlist' may be declared final
+Z Project\Member.java:11:	CommentRequired:	Field comments are required
+Z Project\Member.java:12:	ImmutableField:	Field 'invoice' may be declared final
+Z Project\Member.java:12:	CommentRequired:	Field comments are required
+Z Project\Member.java:13:	UnusedPrivateField:	Avoid unused private fields such as 'status'.
+Z Project\Member.java:13:	CommentRequired:	Field comments are required
+Z Project\Member.java:16:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:16:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Z Project\Member.java:16:	MethodArgumentCouldBeFinal:	Parameter 'address' is not assigned and could be declared final
+Z Project\Member.java:16:	MethodArgumentCouldBeFinal:	Parameter 'phone' is not assigned and could be declared final
+Z Project\Member.java:22:	UselessParentheses:	Useless parentheses.
+Z Project\Member.java:41:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:41:	MethodArgumentCouldBeFinal:	Parameter 'rec' is not assigned and could be declared final
+Z Project\Member.java:47:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:47:	MethodArgumentCouldBeFinal:	Parameter 'rec' is not assigned and could be declared final
+Z Project\Member.java:50:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:50:	MethodArgumentCouldBeFinal:	Parameter 'rec' is not assigned and could be declared final
+Z Project\Member.java:53:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:53:	MethodArgumentCouldBeFinal:	Parameter 'record' is not assigned and could be declared final
+Z Project\Member.java:57:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:61:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:65:	MethodArgumentCouldBeFinal:	Parameter 'newName' is not assigned and could be declared final
+Z Project\Member.java:68:	MethodArgumentCouldBeFinal:	Parameter 'newAddress' is not assigned and could be declared final
+Z Project\Member.java:71:	MethodArgumentCouldBeFinal:	Parameter 'newPhone' is not assigned and could be declared final
+Z Project\Member.java:74:	CommentRequired:	Public method and constructor comments are required
+Z Project\Member.java:74:	SuspiciousEqualsMethodName:	The method name and parameter number are suspiciously close to equals(Object)
+Z Project\Member.java:74:	ShortVariable:	Avoid variables with short names like id
+Z Project\Member.java:74:	MethodArgumentCouldBeFinal:	Parameter 'id' is not assigned and could be declared final
+Z Project\Member.java:79:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\Member.java:80:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'string'
+Z Project\Member.java:80:	LocalVariableCouldBeFinal:	Local variable 'string' could be declared final
+Z Project\MemberIdServer.java:2:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\MemberIdServer.java:2:	CommentRequired:	Class comments are required
+Z Project\MemberIdServer.java:2:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\MemberIdServer.java:2:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\MemberIdServer.java:3:	CommentRequired:	Field comments are required
+Z Project\MemberIdServer.java:4:	CommentRequired:	Field comments are required
+Z Project\MemberIdServer.java:8:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberIdServer.java:9:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\MemberIdServer.java:10:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\MemberIdServer.java:10:	UselessParentheses:	Useless parentheses.
+Z Project\MemberIdServer.java:15:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberIdServer.java:18:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\MemberIdServer.java:19:	UselessParentheses:	Useless parentheses.
+Z Project\MemberIdServer.java:21:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberIdServer.java:21:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\MemberIdServer.java:25:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberIdServer.java:26:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+Z Project\MemberIdServer.java:26:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\MemberIdServer.java:27:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberIdServer.java:30:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectOutputStream' is already in scope because it is imported in this file
+Z Project\MemberIdServer.java:30:	MethodArgumentCouldBeFinal:	Parameter 'output' is not assigned and could be declared final
+Z Project\MemberIdServer.java:35:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberIdServer.java:38:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectInputStream' is already in scope because it is imported in this file
+Z Project\MemberIdServer.java:38:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\MemberIdServer.java:47:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberList.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\MemberList.java:3:	CommentRequired:	Class comments are required
+Z Project\MemberList.java:3:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\MemberList.java:5:	ImmutableField:	Field 'members' may be declared final
+Z Project\MemberList.java:5:	CommentRequired:	Field comments are required
+Z Project\MemberList.java:5:	UseDiamondOperator:	Raw type use may be avoided by using a diamond: `new LinkedList<>()`
+Z Project\MemberList.java:6:	CommentRequired:	Field comments are required
+Z Project\MemberList.java:6:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\MemberList.java:10:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberList.java:11:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\MemberList.java:12:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\MemberList.java:12:	UselessParentheses:	Useless parentheses.
+Z Project\MemberList.java:18:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberList.java:18:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\MemberList.java:27:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberList.java:27:	MethodArgumentCouldBeFinal:	Parameter 'target' is not assigned and could be declared final
+Z Project\MemberList.java:28:	LocalVariableCouldBeFinal:	Local variable 'iterator' could be declared final
+Z Project\MemberList.java:31:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\MemberList.java:33:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\MemberList.java:39:	CommentRequired:	Public method and constructor comments are required
+Z Project\MemberList.java:39:	MethodArgumentCouldBeFinal:	Parameter 'memberId' is not assigned and could be declared final
+Z Project\MemberList.java:40:	LocalVariableCouldBeFinal:	Local variable 'iterator' could be declared final
+Z Project\MemberList.java:41:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\MemberList.java:43:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\MemberList.java:50:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectOutputStream' is already in scope because it is imported in this file
+Z Project\MemberList.java:50:	MethodArgumentCouldBeFinal:	Parameter 'output' is not assigned and could be declared final
+Z Project\MemberList.java:55:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberList.java:58:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectInputStream' is already in scope because it is imported in this file
+Z Project\MemberList.java:58:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\MemberList.java:61:	UnnecessaryReturn:	Unnecessary return statement
+Z Project\MemberList.java:71:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberList.java:72:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+Z Project\MemberList.java:73:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\MemberList.java:76:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\Product.java:2:	UnnecessaryImport:	Unused import 'java.lang.*'
+Z Project\Product.java:4:	UnnecessaryImport:	Unused import 'java.io.Serializable.*'
+Z Project\Product.java:6:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Product.java:6:	CommentRequired:	Class comments are required
+Z Project\Product.java:6:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Product.java:8:	CommentRequired:	Field comments are required
+Z Project\Product.java:8:	FieldNamingConventions:	The field name 'ProductName' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Product.java:9:	ShortVariable:	Avoid variables with short names like id
+Z Project\Product.java:9:	CommentRequired:	Field comments are required
+Z Project\Product.java:10:	CommentRequired:	Field comments are required
+Z Project\Product.java:11:	CommentRequired:	Field comments are required
+Z Project\Product.java:11:	FieldNamingConventions:	The field name 'Quantity' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Product.java:12:	CommentRequired:	Field comments are required
+Z Project\Product.java:12:	FieldNamingConventions:	The field name 'Price' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Product.java:13:	ImmutableField:	Field 'waitlist' may be declared final
+Z Project\Product.java:13:	CommentRequired:	Field comments are required
+Z Project\Product.java:16:	CommentRequired:	Public method and constructor comments are required
+Z Project\Product.java:16:	MethodArgumentCouldBeFinal:	Parameter 'ProductName' is not assigned and could be declared final
+Z Project\Product.java:16:	FormalParameterNamingConventions:	The method parameter name 'ProductName' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Product.java:16:	MethodArgumentCouldBeFinal:	Parameter 'Quantity' is not assigned and could be declared final
+Z Project\Product.java:16:	FormalParameterNamingConventions:	The method parameter name 'Quantity' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Product.java:16:	MethodArgumentCouldBeFinal:	Parameter 'Price' is not assigned and could be declared final
+Z Project\Product.java:16:	FormalParameterNamingConventions:	The method parameter name 'Price' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Product.java:21:	UselessParentheses:	Useless parentheses.
+Z Project\Product.java:41:	MethodArgumentCouldBeFinal:	Parameter 'newPrice' is not assigned and could be declared final
+Z Project\Product.java:45:	MethodArgumentCouldBeFinal:	Parameter 'newQuantity' is not assigned and could be declared final
+Z Project\Product.java:48:	CommentRequired:	Public method and constructor comments are required
+Z Project\Product.java:48:	MethodArgumentCouldBeFinal:	Parameter 'newQuantity' is not assigned and could be declared final
+Z Project\Product.java:51:	MethodArgumentCouldBeFinal:	Parameter 'newProductName' is not assigned and could be declared final
+Z Project\Product.java:54:	MethodArgumentCouldBeFinal:	Parameter 'newId' is not assigned and could be declared final
+Z Project\Product.java:57:	CommentRequired:	Public method and constructor comments are required
+Z Project\Product.java:57:	MethodArgumentCouldBeFinal:	Parameter 'item' is not assigned and could be declared final
+Z Project\Product.java:60:	CommentRequired:	Public method and constructor comments are required
+Z Project\Product.java:60:	MethodArgumentCouldBeFinal:	Parameter 'item' is not assigned and could be declared final
+Z Project\Product.java:66:	CommentRequired:	Public method and constructor comments are required
+Z Project\Product.java:70:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\ProductIdServer.java:2:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\ProductIdServer.java:2:	CommentRequired:	Class comments are required
+Z Project\ProductIdServer.java:2:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\ProductIdServer.java:2:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\ProductIdServer.java:3:	CommentRequired:	Field comments are required
+Z Project\ProductIdServer.java:4:	CommentRequired:	Field comments are required
+Z Project\ProductIdServer.java:8:	CommentRequired:	Public method and constructor comments are required
+Z Project\ProductIdServer.java:9:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\ProductIdServer.java:10:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\ProductIdServer.java:10:	UselessParentheses:	Useless parentheses.
+Z Project\ProductIdServer.java:15:	CommentRequired:	Public method and constructor comments are required
+Z Project\ProductIdServer.java:18:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\ProductIdServer.java:19:	UselessParentheses:	Useless parentheses.
+Z Project\ProductIdServer.java:21:	CommentRequired:	Public method and constructor comments are required
+Z Project\ProductIdServer.java:21:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\ProductIdServer.java:25:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\ProductIdServer.java:26:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+Z Project\ProductIdServer.java:26:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\ProductIdServer.java:27:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\ProductIdServer.java:30:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectOutputStream' is already in scope because it is imported in this file
+Z Project\ProductIdServer.java:30:	MethodArgumentCouldBeFinal:	Parameter 'output' is not assigned and could be declared final
+Z Project\ProductIdServer.java:35:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\ProductIdServer.java:38:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectInputStream' is already in scope because it is imported in this file
+Z Project\ProductIdServer.java:38:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\ProductIdServer.java:47:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Record.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Record.java:4:	CommentRequired:	Class comments are required
+Z Project\Record.java:4:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Record.java:5:	ImmutableField:	Field 'product' may be declared final
+Z Project\Record.java:5:	CommentRequired:	Field comments are required
+Z Project\Record.java:6:	ImmutableField:	Field 'member' may be declared final
+Z Project\Record.java:6:	CommentRequired:	Field comments are required
+Z Project\Record.java:7:	CommentRequired:	Field comments are required
+Z Project\Record.java:8:	ImmutableField:	Field 'price' may be declared final
+Z Project\Record.java:8:	CommentRequired:	Field comments are required
+Z Project\Record.java:10:	CommentRequired:	Public method and constructor comments are required
+Z Project\Record.java:10:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Record.java:10:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Record.java:10:	MethodArgumentCouldBeFinal:	Parameter 'quantity' is not assigned and could be declared final
+Z Project\Record.java:10:	MethodArgumentCouldBeFinal:	Parameter 'price' is not assigned and could be declared final
+Z Project\Record.java:31:	MethodArgumentCouldBeFinal:	Parameter 'newQuantity' is not assigned and could be declared final
+Z Project\Record.java:36:	MethodArgumentCouldBeFinal:	Parameter 'obj' is not assigned and could be declared final
+Z Project\Record.java:37:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Record.java:37:	ControlStatementBraces:	This statement should have braces
+Z Project\Record.java:38:	BrokenNullCheck:	Dereferencing the qualifier of this expression will throw a NullPointerException
+Z Project\Record.java:38:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Record.java:38:	ControlStatementBraces:	This statement should have braces
+Z Project\Record.java:39:	LocalVariableCouldBeFinal:	Local variable 'other' could be declared final
+Z Project\Record.java:50:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\Shipment.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Shipment.java:3:	CommentRequired:	Class comments are required
+Z Project\Shipment.java:3:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Shipment.java:4:	ImmutableField:	Field 'product' may be declared final
+Z Project\Shipment.java:4:	CommentRequired:	Field comments are required
+Z Project\Shipment.java:5:	CommentRequired:	Field comments are required
+Z Project\Shipment.java:7:	CommentRequired:	Public method and constructor comments are required
+Z Project\Shipment.java:7:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Shipment.java:7:	MethodArgumentCouldBeFinal:	Parameter 'quantity' is not assigned and could be declared final
+Z Project\Shipment.java:20:	CommentRequired:	Public method and constructor comments are required
+Z Project\Shipment.java:20:	MethodArgumentCouldBeFinal:	Parameter 'subtract' is not assigned and could be declared final
+Z Project\Shipment.java:23:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Shipment.java:28:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\UserAccount.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\UserAccount.java:1:	CommentRequired:	Class comments are required
+Z Project\UserAccount.java:2:	ImmutableField:	Field 'username' may be declared final
+Z Project\UserAccount.java:2:	CommentRequired:	Field comments are required
+Z Project\UserAccount.java:3:	ImmutableField:	Field 'password' may be declared final
+Z Project\UserAccount.java:3:	CommentRequired:	Field comments are required
+Z Project\UserAccount.java:4:	ImmutableField:	Field 'accountType' may be declared final
+Z Project\UserAccount.java:4:	CommentRequired:	Field comments are required
+Z Project\UserAccount.java:6:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserAccount.java:6:	MethodArgumentCouldBeFinal:	Parameter 'username' is not assigned and could be declared final
+Z Project\UserAccount.java:6:	MethodArgumentCouldBeFinal:	Parameter 'password' is not assigned and could be declared final
+Z Project\UserAccount.java:6:	MethodArgumentCouldBeFinal:	Parameter 'accountType' is not assigned and could be declared final
+Z Project\UserInterface.java:3:	UnnecessaryImport:	Duplicate import 'java.util.*'
+Z Project\UserInterface.java:7:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\UserInterface.java:7:	CommentRequired:	Class comments are required
+Z Project\UserInterface.java:7:	CyclomaticComplexity:	The class 'UserInterface' has a total cyclomatic complexity of 115 (highest 16).
+Z Project\UserInterface.java:7:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\UserInterface.java:7:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Z Project\UserInterface.java:8:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:8:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\UserInterface.java:9:	ImmutableField:	Field 'reader' may be declared final
+Z Project\UserInterface.java:9:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:10:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:11:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:12:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:13:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:14:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:20:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:21:	LongVariable:	Avoid excessively long variable names like REMOVE_FROM_WISHLIST
+Z Project\UserInterface.java:21:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:22:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:23:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:24:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:25:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:26:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:27:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:28:	AvoidFieldNameMatchingMethodName:	Field SAVE has the same name as a method
+Z Project\UserInterface.java:28:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:29:	AvoidFieldNameMatchingMethodName:	Field RETRIEVE has the same name as a method
+Z Project\UserInterface.java:29:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:30:	AvoidFieldNameMatchingMethodName:	Field HELP has the same name as a method
+Z Project\UserInterface.java:30:	CommentRequired:	Field comments are required
+Z Project\UserInterface.java:33:	ConstructorCallsOverridableMethod:	This method may call an overridable method during object construction: UserInterface.getToken(String) (call stack: [UserInterface.yesOrNo(String), UserInterface.getToken(String)])
+Z Project\UserInterface.java:36:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'warehouse' in a constructor.
+Z Project\UserInterface.java:40:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:41:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\UserInterface.java:42:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\UserInterface.java:48:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:48:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\UserInterface.java:51:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:52:	LocalVariableCouldBeFinal:	Local variable 'line' could be declared final
+Z Project\UserInterface.java:53:	LocalVariableCouldBeFinal:	Local variable 'tokenizer' could be declared final
+Z Project\UserInterface.java:53:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\UserInterface.java:58:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\UserInterface.java:60:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\UserInterface.java:63:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\UserInterface.java:64:	LocalVariableCouldBeFinal:	Local variable 'more' could be declared final
+Z Project\UserInterface.java:65:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+Z Project\UserInterface.java:66:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\UserInterface.java:71:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:71:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\UserInterface.java:74:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\UserInterface.java:75:	LocalVariableCouldBeFinal:	Local variable 'num' could be declared final
+Z Project\UserInterface.java:76:	UnnecessaryBoxing:	Unnecessary explicit unboxing
+Z Project\UserInterface.java:78:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:80:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\UserInterface.java:83:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:83:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\UserInterface.java:86:	LocalVariableCouldBeFinal:	Local variable 'date' could be declared final
+Z Project\UserInterface.java:86:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\UserInterface.java:87:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\UserInterface.java:88:	ShortVariable:	Avoid variables with short names like df
+Z Project\UserInterface.java:88:	LocalVariableCouldBeFinal:	Local variable 'df' could be declared final
+Z Project\UserInterface.java:91:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\UserInterface.java:92:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:94:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\UserInterface.java:97:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:100:	LocalVariableCouldBeFinal:	Local variable 'value' could be declared final
+Z Project\UserInterface.java:105:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:107:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\UserInterface.java:110:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:111:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:112:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:113:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:114:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:115:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:120:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:121:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:122:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:124:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:125:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:126:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:127:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:128:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:129:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:130:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:131:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:132:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:133:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:134:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:135:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:136:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:140:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:141:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\UserInterface.java:142:	LocalVariableCouldBeFinal:	Local variable 'address' could be declared final
+Z Project\UserInterface.java:143:	LocalVariableCouldBeFinal:	Local variable 'phone' could be declared final
+Z Project\UserInterface.java:148:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:150:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:153:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:155:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+Z Project\UserInterface.java:155:	LocalVariableCouldBeFinal:	Local variable 'myObj' could be declared final
+Z Project\UserInterface.java:157:	LocalVariableCouldBeFinal:	Local variable 'ProductName' could be declared final
+Z Project\UserInterface.java:157:	LocalVariableNamingConventions:	The local variable name 'ProductName' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:158:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:158:	AvoidDuplicateLiterals:	The String literal "Enter Quantity" appears 5 times in this file; the first occurrence is on line 158
+Z Project\UserInterface.java:160:	LocalVariableCouldBeFinal:	Local variable 'Quantity' could be declared final
+Z Project\UserInterface.java:160:	LocalVariableNamingConventions:	The local variable name 'Quantity' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:162:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:163:	LocalVariableCouldBeFinal:	Local variable 'Price' could be declared final
+Z Project\UserInterface.java:163:	LocalVariableNamingConventions:	The local variable name 'Price' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:167:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:169:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:174:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\UserInterface.java:177:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:179:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+Z Project\UserInterface.java:179:	LocalVariableCouldBeFinal:	Local variable 'myObj' could be declared final
+Z Project\UserInterface.java:181:	LocalVariableCouldBeFinal:	Local variable 'ProductName' could be declared final
+Z Project\UserInterface.java:181:	LocalVariableNamingConventions:	The local variable name 'ProductName' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:182:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:184:	LocalVariableCouldBeFinal:	Local variable 'Quantity' could be declared final
+Z Project\UserInterface.java:184:	LocalVariableNamingConventions:	The local variable name 'Quantity' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:185:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\UserInterface.java:186:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:187:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:188:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\UserInterface.java:191:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:193:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:198:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\UserInterface.java:201:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:202:	LocalVariableCouldBeFinal:	Local variable 'productName' could be declared final
+Z Project\UserInterface.java:203:	LocalVariableCouldBeFinal:	Local variable 'newQuantity' could be declared final
+Z Project\UserInterface.java:205:	LocalVariableCouldBeFinal:	Local variable 'success' could be declared final
+Z Project\UserInterface.java:208:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:210:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:214:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:214:	CognitiveComplexity:	The method 'processOrder()' has a cognitive complexity of 26, current threshold is 15
+Z Project\UserInterface.java:214:	CyclomaticComplexity:	The method 'processOrder()' has a cyclomatic complexity of 12.
+Z Project\UserInterface.java:215:	LocalVariableCouldBeFinal:	Local variable 'Name' could be declared final
+Z Project\UserInterface.java:215:	LocalVariableNamingConventions:	The local variable name 'Name' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:216:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:217:	LocalVariableCouldBeFinal:	Local variable 'wishIter' could be declared final
+Z Project\UserInterface.java:219:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:220:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:221:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:222:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:225:	LocalVariableCouldBeFinal:	Local variable 'wish' could be declared final
+Z Project\UserInterface.java:225:	UselessParentheses:	Useless parentheses.
+Z Project\UserInterface.java:226:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:227:	LocalVariableCouldBeFinal:	Local variable 'choice' could be declared final
+Z Project\UserInterface.java:228:	SwitchDensity:	A high ratio of statements to labels in a switch statement.  Consider refactoring.
+Z Project\UserInterface.java:228:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\UserInterface.java:230:	LocalVariableCouldBeFinal:	Local variable 'success' could be declared final
+Z Project\UserInterface.java:232:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:233:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+Z Project\UserInterface.java:234:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:236:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:236:	AvoidDuplicateLiterals:	The String literal "Unexpected Input" appears 4 times in this file; the first occurrence is on line 236
+Z Project\UserInterface.java:239:	ImplicitSwitchFallThrough:	This switch case may be reached by fallthrough from the previous case
+Z Project\UserInterface.java:241:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\UserInterface.java:241:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\UserInterface.java:242:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\UserInterface.java:244:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:246:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:249:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:249:	AvoidDuplicateLiterals:	The String literal "Product or member not found." appears 5 times in this file; the first occurrence is on line 249
+Z Project\UserInterface.java:255:	LocalVariableCouldBeFinal:	Local variable 'newQuantity' could be declared final
+Z Project\UserInterface.java:257:	LocalVariableCouldBeFinal:	Local variable 'done' could be declared final
+Z Project\UserInterface.java:259:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:260:	AvoidLiteralsInIfCondition:	Avoid using literals in if statements
+Z Project\UserInterface.java:261:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:263:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:273:	CommentSize:	Comment is too large: Too many lines
+Z Project\UserInterface.java:338:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:339:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\UserInterface.java:340:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:343:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:345:	LocalVariableCouldBeFinal:	Local variable 'allItems' could be declared final
+Z Project\UserInterface.java:347:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\UserInterface.java:347:	UselessParentheses:	Useless parentheses.
+Z Project\UserInterface.java:348:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:352:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:356:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:357:	LocalVariableCouldBeFinal:	Local variable 'allProducts' could be declared final
+Z Project\UserInterface.java:359:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:359:	UselessParentheses:	Useless parentheses.
+Z Project\UserInterface.java:360:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:364:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:365:	LocalVariableCouldBeFinal:	Local variable 'allMembers' could be declared final
+Z Project\UserInterface.java:367:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:367:	UselessParentheses:	Useless parentheses.
+Z Project\UserInterface.java:368:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:372:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:373:	LocalVariableCouldBeFinal:	Local variable 'productName' could be declared final
+Z Project\UserInterface.java:374:	LocalVariableCouldBeFinal:	Local variable 'memberName' could be declared final
+Z Project\UserInterface.java:375:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\UserInterface.java:377:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:378:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:379:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\UserInterface.java:381:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\UserInterface.java:382:	LocalVariableCouldBeFinal:	Local variable 'added' could be declared final
+Z Project\UserInterface.java:385:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:387:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:390:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:394:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:395:	LocalVariableCouldBeFinal:	Local variable 'productName' could be declared final
+Z Project\UserInterface.java:396:	LocalVariableCouldBeFinal:	Local variable 'memberName' could be declared final
+Z Project\UserInterface.java:397:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\UserInterface.java:399:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:400:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:401:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\UserInterface.java:403:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\UserInterface.java:404:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\UserInterface.java:407:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:409:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:412:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:416:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:417:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\UserInterface.java:418:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:419:	LocalVariableCouldBeFinal:	Local variable 'allItems' could be declared final
+Z Project\UserInterface.java:421:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:424:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\UserInterface.java:425:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:429:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:430:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+Z Project\UserInterface.java:430:	LocalVariableCouldBeFinal:	Local variable 'scanner' could be declared final
+Z Project\UserInterface.java:435:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:436:	LocalVariableCouldBeFinal:	Local variable 'productName' could be declared final
+Z Project\UserInterface.java:437:	ConfusingTernary:	Avoid if (x != y) ..; else ..;
+Z Project\UserInterface.java:437:	SimplifyBooleanExpressions:	Avoid unnecessary comparisons in boolean expressions
+Z Project\UserInterface.java:438:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:443:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:444:	UnusedLocalVariable:	Avoid unused local variables such as 'id'.
+Z Project\UserInterface.java:444:	ShortVariable:	Avoid variables with short names like id
+Z Project\UserInterface.java:446:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:447:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\UserInterface.java:449:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:450:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\UserInterface.java:453:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:454:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:459:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\UserInterface.java:462:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:464:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:473:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:477:	CloseResource:	Ensure that resources like this Scanner object are closed after use
+Z Project\UserInterface.java:477:	LocalVariableCouldBeFinal:	Local variable 'scanner' could be declared final
+Z Project\UserInterface.java:480:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:481:	LocalVariableCouldBeFinal:	Local variable 'productName' could be declared final
+Z Project\UserInterface.java:484:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:485:	LocalVariableCouldBeFinal:	Local variable 'memberName' could be declared final
+Z Project\UserInterface.java:487:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:488:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\UserInterface.java:490:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:491:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:492:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\UserInterface.java:493:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:494:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:497:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\UserInterface.java:498:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\UserInterface.java:500:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:502:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:505:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:510:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:511:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\UserInterface.java:512:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:513:	LocalVariableCouldBeFinal:	Local variable 'invoices' could be declared final
+Z Project\UserInterface.java:515:	LocalVariableCouldBeFinal:	Local variable 'invoice' could be declared final
+Z Project\UserInterface.java:516:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:521:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:522:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:525:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:525:	CognitiveComplexity:	The method 'processShipment()' has a cognitive complexity of 36, current threshold is 15
+Z Project\UserInterface.java:525:	CyclomaticComplexity:	The method 'processShipment()' has a cyclomatic complexity of 14.
+Z Project\UserInterface.java:526:	LocalVariableCouldBeFinal:	Local variable 'name' could be declared final
+Z Project\UserInterface.java:527:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\UserInterface.java:528:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\UserInterface.java:530:	LocalVariableCouldBeFinal:	Local variable 'ship' could be declared final
+Z Project\UserInterface.java:531:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:532:	LocalVariableCouldBeFinal:	Local variable 'waitIter' could be declared final
+Z Project\UserInterface.java:534:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:535:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:536:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:537:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:540:	LocalVariableCouldBeFinal:	Local variable 'wait' could be declared final
+Z Project\UserInterface.java:540:	UselessParentheses:	Useless parentheses.
+Z Project\UserInterface.java:541:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\UserInterface.java:542:	LocalVariableCouldBeFinal:	Local variable 'addQuantity' could be declared final
+Z Project\UserInterface.java:543:	LocalVariableCouldBeFinal:	Local variable 'price' could be declared final
+Z Project\UserInterface.java:544:	LocalVariableCouldBeFinal:	Local variable 'record' could be declared final
+Z Project\UserInterface.java:544:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\UserInterface.java:545:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:546:	LocalVariableCouldBeFinal:	Local variable 'choice' could be declared final
+Z Project\UserInterface.java:547:	SwitchDensity:	A high ratio of statements to labels in a switch statement.  Consider refactoring.
+Z Project\UserInterface.java:547:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\UserInterface.java:549:	LocalVariableCouldBeFinal:	Local variable 'success' could be declared final
+Z Project\UserInterface.java:553:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:559:	LocalVariableCouldBeFinal:	Local variable 'record1' could be declared final
+Z Project\UserInterface.java:559:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\UserInterface.java:560:	UnusedLocalVariable:	Avoid unused local variables such as 'removed'.
+Z Project\UserInterface.java:560:	UnusedAssignment:	The initializer for variable 'removed' is never used (overwritten on line 561)
+Z Project\UserInterface.java:561:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\UserInterface.java:561:	UnusedAssignment:	The value assigned to variable 'removed' is never used
+Z Project\UserInterface.java:562:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:564:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:567:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:573:	LocalVariableCouldBeFinal:	Local variable 'newQuantity' could be declared final
+Z Project\UserInterface.java:574:	LocalVariableCouldBeFinal:	Local variable 'record2' could be declared final
+Z Project\UserInterface.java:574:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\UserInterface.java:576:	LocalVariableCouldBeFinal:	Local variable 'success2' could be declared final
+Z Project\UserInterface.java:579:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:581:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:587:	MisplacedNullCheck:	The null check here is misplaced; if the variable 'product' is null there will be a NullPointerException
+Z Project\UserInterface.java:588:	LocalVariableCouldBeFinal:	Local variable 'Ship' could be declared final
+Z Project\UserInterface.java:588:	LocalVariableNamingConventions:	The local variable name 'Ship' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\UserInterface.java:589:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:590:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:594:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:598:	LinguisticNaming:	Linguistics Antipattern - The getter 'getTransactions' should not return void linguistically
+Z Project\UserInterface.java:598:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:599:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:604:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:606:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:612:	LocalVariableCouldBeFinal:	Local variable 'tempWarehouse' could be declared final
+Z Project\UserInterface.java:614:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:617:	SystemPrintln:	Usage of System.out/err
+Z Project\UserInterface.java:620:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\UserInterface.java:621:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\UserInterface.java:625:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:625:	CyclomaticComplexity:	The method 'process()' has a cyclomatic complexity of 16.
+Z Project\UserInterface.java:628:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\UserInterface.java:629:	SwitchStmtsShouldHaveDefault:	Switch statements should be exhaustive, add a default case (or missing enum branches)
+Z Project\UserInterface.java:639:	CommentSize:	Comment is too large: Line too long
+Z Project\UserInterface.java:643:	CommentSize:	Comment is too large: Line too long
+Z Project\UserInterface.java:645:	CommentSize:	Comment is too large: Line too long
+Z Project\UserInterface.java:647:	CommentSize:	Comment is too large: Line too long
+Z Project\UserInterface.java:686:	CommentRequired:	Public method and constructor comments are required
+Z Project\UserInterface.java:686:	ShortVariable:	Avoid variables with short names like s
+Z Project\UserInterface.java:687:	CommentSize:	Comment is too large: Too many lines
+Z Project\UserInterface.java:706:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'UserInterface': 'instance' is already in scope
+Z Project\UserInterface.java:713:	CommentSize:	Comment is too large: Line too long
+Z Project\Waitlist.java:3:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Waitlist.java:3:	CommentRequired:	Class comments are required
+Z Project\Waitlist.java:3:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Waitlist.java:3:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Z Project\Waitlist.java:6:	ImmutableField:	Field 'items' may be declared final
+Z Project\Waitlist.java:6:	CommentRequired:	Field comments are required
+Z Project\Waitlist.java:6:	UseDiamondOperator:	Raw type use may be avoided by using a diamond: `new LinkedList<>()`
+Z Project\Waitlist.java:7:	ImmutableField:	Field 'copyList' may be declared final
+Z Project\Waitlist.java:7:	CommentRequired:	Field comments are required
+Z Project\Waitlist.java:9:	CommentRequired:	Field comments are required
+Z Project\Waitlist.java:9:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\Waitlist.java:13:	CommentRequired:	Public method and constructor comments are required
+Z Project\Waitlist.java:14:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\Waitlist.java:14:	AssignmentInOperand:	Avoid assignments in operands
+Z Project\Waitlist.java:14:	NullAssignment:	Assigning an Object to null is a code smell.  Consider refactoring.
+Z Project\Waitlist.java:15:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Waitlist.java:15:	UselessParentheses:	Useless parentheses.
+Z Project\Waitlist.java:21:	CommentRequired:	Public method and constructor comments are required
+Z Project\Waitlist.java:21:	MethodArgumentCouldBeFinal:	Parameter 'item' is not assigned and could be declared final
+Z Project\Waitlist.java:28:	CommentRequired:	Public method and constructor comments are required
+Z Project\Waitlist.java:28:	MethodArgumentCouldBeFinal:	Parameter 'item' is not assigned and could be declared final
+Z Project\Waitlist.java:29:	SystemPrintln:	Usage of System.out/err
+Z Project\Waitlist.java:30:	SystemPrintln:	Usage of System.out/err
+Z Project\Waitlist.java:31:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\Waitlist.java:32:	SystemPrintln:	Usage of System.out/err
+Z Project\Waitlist.java:40:	CommentRequired:	Public method and constructor comments are required
+Z Project\Waitlist.java:40:	ShortVariable:	Avoid variables with short names like i
+Z Project\Waitlist.java:40:	MethodArgumentCouldBeFinal:	Parameter 'i' is not assigned and could be declared final
+Z Project\Waitlist.java:44:	CommentRequired:	Public method and constructor comments are required
+Z Project\Waitlist.java:47:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Warehouse.java:5:	CommentRequired:	Class comments are required
+Z Project\Warehouse.java:5:	GodClass:	Possible God Class (WMC=48, ATFD=27, TCC=11.681%)
+Z Project\Warehouse.java:5:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\Warehouse.java:5:	TooManyMethods:	This class has too many methods, consider refactoring it.
+Z Project\Warehouse.java:7:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:8:	LongVariable:	Avoid excessively long variable names like PRODUCT_NOT_PURCHASED
+Z Project\Warehouse.java:8:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:9:	LongVariable:	Avoid excessively long variable names like PRODUCT_ON_WAITLIST
+Z Project\Warehouse.java:9:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:10:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:11:	LongVariable:	Avoid excessively long variable names like PRODUCT_PLACED_ON_WAITLIST
+Z Project\Warehouse.java:11:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:12:	LongVariable:	Avoid excessively long variable names like PRODUCT_NOT_ON_WAITLIST
+Z Project\Warehouse.java:12:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:13:	LongVariable:	Avoid excessively long variable names like OPERATION_COMPLETED
+Z Project\Warehouse.java:13:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:14:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:15:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:16:	ImmutableField:	Field 'catalog' may be declared final
+Z Project\Warehouse.java:16:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:17:	ImmutableField:	Field 'memberList' may be declared final
+Z Project\Warehouse.java:17:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:22:	CommentRequired:	Field comments are required
+Z Project\Warehouse.java:22:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\Warehouse.java:30:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:31:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\Warehouse.java:33:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:33:	UselessParentheses:	Useless parentheses.
+Z Project\Warehouse.java:39:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:39:	MethodArgumentCouldBeFinal:	Parameter 'productName' is not assigned and could be declared final
+Z Project\Warehouse.java:40:	LocalVariableCouldBeFinal:	Local variable 'productIterator' could be declared final
+Z Project\Warehouse.java:43:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\Warehouse.java:45:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:51:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:51:	MethodArgumentCouldBeFinal:	Parameter 'productName' is not assigned and could be declared final
+Z Project\Warehouse.java:52:	LocalVariableCouldBeFinal:	Local variable 'productIterator' could be declared final
+Z Project\Warehouse.java:55:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\Warehouse.java:56:	SystemPrintln:	Usage of System.out/err
+Z Project\Warehouse.java:58:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:64:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:64:	MethodArgumentCouldBeFinal:	Parameter 'memberId' is not assigned and could be declared final
+Z Project\Warehouse.java:68:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:68:	MethodArgumentCouldBeFinal:	Parameter 'memberName' is not assigned and could be declared final
+Z Project\Warehouse.java:74:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:74:	MethodArgumentCouldBeFinal:	Parameter 'ProductName' is not assigned and could be declared final
+Z Project\Warehouse.java:74:	FormalParameterNamingConventions:	The method parameter name 'ProductName' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Warehouse.java:74:	MethodArgumentCouldBeFinal:	Parameter 'Quantity' is not assigned and could be declared final
+Z Project\Warehouse.java:74:	FormalParameterNamingConventions:	The method parameter name 'Quantity' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Warehouse.java:74:	MethodArgumentCouldBeFinal:	Parameter 'Price' is not assigned and could be declared final
+Z Project\Warehouse.java:74:	FormalParameterNamingConventions:	The method parameter name 'Price' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Warehouse.java:75:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\Warehouse.java:78:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:78:	UselessParentheses:	Useless parentheses.
+Z Project\Warehouse.java:87:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:87:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Warehouse.java:88:	LocalVariableCouldBeFinal:	Local variable 'existing_product' could be declared final
+Z Project\Warehouse.java:88:	LocalVariableNamingConventions:	The local variable name 'existing_product' doesn't match '[a-z][a-zA-Z0-9]*'
+Z Project\Warehouse.java:91:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:97:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:97:	MethodArgumentCouldBeFinal:	Parameter 'name' is not assigned and could be declared final
+Z Project\Warehouse.java:97:	MethodArgumentCouldBeFinal:	Parameter 'address' is not assigned and could be declared final
+Z Project\Warehouse.java:97:	MethodArgumentCouldBeFinal:	Parameter 'phone' is not assigned and could be declared final
+Z Project\Warehouse.java:98:	LocalVariableCouldBeFinal:	Local variable 'member' could be declared final
+Z Project\Warehouse.java:100:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:100:	UselessParentheses:	Useless parentheses.
+Z Project\Warehouse.java:105:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:105:	MethodArgumentCouldBeFinal:	Parameter 'productName' is not assigned and could be declared final
+Z Project\Warehouse.java:105:	MethodArgumentCouldBeFinal:	Parameter 'newQuantity' is not assigned and could be declared final
+Z Project\Warehouse.java:109:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:109:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Warehouse.java:109:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:109:	MethodArgumentCouldBeFinal:	Parameter 'quantity' is not assigned and could be declared final
+Z Project\Warehouse.java:109:	MethodArgumentCouldBeFinal:	Parameter 'price' is not assigned and could be declared final
+Z Project\Warehouse.java:110:	LocalVariableCouldBeFinal:	Local variable 'item' could be declared final
+Z Project\Warehouse.java:112:	CollapsibleIfStatements:	This if statement could be combined with its parent
+Z Project\Warehouse.java:113:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:113:	UselessParentheses:	Useless parentheses.
+Z Project\Warehouse.java:119:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:119:	MethodArgumentCouldBeFinal:	Parameter 'item' is not assigned and could be declared final
+Z Project\Warehouse.java:119:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Warehouse.java:123:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:123:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:123:	MethodArgumentCouldBeFinal:	Parameter 'record' is not assigned and could be declared final
+Z Project\Warehouse.java:127:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:127:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:127:	MethodArgumentCouldBeFinal:	Parameter 'record' is not assigned and could be declared final
+Z Project\Warehouse.java:131:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:131:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:135:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:135:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:139:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:139:	MethodArgumentCouldBeFinal:	Parameter 'wish' is not assigned and could be declared final
+Z Project\Warehouse.java:139:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:140:	ShortVariable:	Avoid variables with short names like p
+Z Project\Warehouse.java:140:	LocalVariableCouldBeFinal:	Local variable 'p' could be declared final
+Z Project\Warehouse.java:142:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\Warehouse.java:145:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:148:	LocalVariableCouldBeFinal:	Local variable 'quantity' could be declared final
+Z Project\Warehouse.java:150:	LocalVariableCouldBeFinal:	Local variable 'wait' could be declared final
+Z Project\Warehouse.java:161:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:161:	MethodArgumentCouldBeFinal:	Parameter 'member' is not assigned and could be declared final
+Z Project\Warehouse.java:165:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:169:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:172:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:172:	MethodArgumentCouldBeFinal:	Parameter 'product' is not assigned and could be declared final
+Z Project\Warehouse.java:175:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:175:	MethodArgumentCouldBeFinal:	Parameter 'shipment' is not assigned and could be declared final
+Z Project\Warehouse.java:176:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\Warehouse.java:177:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'waitlist'
+Z Project\Warehouse.java:177:	LocalVariableCouldBeFinal:	Local variable 'waitlist' could be declared final
+Z Project\Warehouse.java:181:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:181:	MethodArgumentCouldBeFinal:	Parameter 'shipment' is not assigned and could be declared final
+Z Project\Warehouse.java:181:	MethodArgumentCouldBeFinal:	Parameter 'quantity' is not assigned and could be declared final
+Z Project\Warehouse.java:183:	LocalVariableCouldBeFinal:	Local variable 'product' could be declared final
+Z Project\Warehouse.java:185:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:190:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:195:	CloseResource:	Ensure that resources like this FileInputStream object are closed after use
+Z Project\Warehouse.java:195:	LocalVariableCouldBeFinal:	Local variable 'file' could be declared final
+Z Project\Warehouse.java:195:	AvoidFileStream:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+Z Project\Warehouse.java:196:	CloseResource:	Ensure that resources like this ObjectInputStream object are closed after use
+Z Project\Warehouse.java:196:	LocalVariableCouldBeFinal:	Local variable 'input' could be declared final
+Z Project\Warehouse.java:199:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:204:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Warehouse.java:205:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:206:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+Z Project\Warehouse.java:207:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Warehouse.java:211:	CommentRequired:	Public method and constructor comments are required
+Z Project\Warehouse.java:213:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+Z Project\Warehouse.java:213:	LocalVariableCouldBeFinal:	Local variable 'file' could be declared final
+Z Project\Warehouse.java:213:	AvoidFileStream:	Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+Z Project\Warehouse.java:214:	CloseResource:	Ensure that resources like this ObjectOutputStream object are closed after use
+Z Project\Warehouse.java:214:	LocalVariableCouldBeFinal:	Local variable 'output' could be declared final
+Z Project\Warehouse.java:217:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Warehouse.java:219:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Warehouse.java:223:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectOutputStream' is already in scope because it is imported in this file
+Z Project\Warehouse.java:223:	MethodArgumentCouldBeFinal:	Parameter 'output' is not assigned and could be declared final
+Z Project\Warehouse.java:228:	SystemPrintln:	Usage of System.out/err
+Z Project\Warehouse.java:231:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'java.io': 'ObjectInputStream' is already in scope because it is imported in this file
+Z Project\Warehouse.java:231:	MethodArgumentCouldBeFinal:	Parameter 'input' is not assigned and could be declared final
+Z Project\Warehouse.java:240:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Warehouse.java:241:	IdenticalCatchBranches:	'catch' branch identical to 'IOException' branch
+Z Project\Warehouse.java:241:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\Warehouse.java:242:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\Warehouse.java:245:	MissingOverride:	The method 'toString()' is missing an @Override annotation.
+Z Project\WarehouseContext.java:2:	UnnecessaryImport:	Unused import 'java.text.*'
+Z Project\WarehouseContext.java:5:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\WarehouseContext.java:5:	CommentRequired:	Class comments are required
+Z Project\WarehouseContext.java:5:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+Z Project\WarehouseContext.java:7:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:8:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:9:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:10:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:11:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:12:	ImmutableField:	Field 'reader' may be declared final
+Z Project\WarehouseContext.java:12:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:14:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:14:	FieldNamingConventions:	The public constant name 'IsClient' doesn't match '[A-Z][A-Z_0-9]*'
+Z Project\WarehouseContext.java:15:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:15:	FieldNamingConventions:	The public constant name 'IsClerk' doesn't match '[A-Z][A-Z_0-9]*'
+Z Project\WarehouseContext.java:16:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:16:	FieldNamingConventions:	The public constant name 'IsManager' doesn't match '[A-Z][A-Z_0-9]*'
+Z Project\WarehouseContext.java:17:	ImmutableField:	Field 'states' may be declared final
+Z Project\WarehouseContext.java:17:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:17:	OneDeclarationPerLine:	Use one line for each declaration, it enhances code readability.
+Z Project\WarehouseContext.java:17:	UnusedPrivateField:	Avoid unused private fields such as 'status'.
+Z Project\WarehouseContext.java:18:	ImmutableField:	Field 'nextState' may be declared final
+Z Project\WarehouseContext.java:18:	CommentRequired:	Field comments are required
+Z Project\WarehouseContext.java:21:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:21:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\WarehouseContext.java:24:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:25:	LocalVariableCouldBeFinal:	Local variable 'line' could be declared final
+Z Project\WarehouseContext.java:26:	LocalVariableCouldBeFinal:	Local variable 'tokenizer' could be declared final
+Z Project\WarehouseContext.java:26:	AvoidInstantiatingObjectsInLoops:	Avoid instantiating new objects inside loops
+Z Project\WarehouseContext.java:31:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\WarehouseContext.java:33:	WhileLoopWithLiteralBoolean:	The loop can be simplified.
+Z Project\WarehouseContext.java:36:	MethodArgumentCouldBeFinal:	Parameter 'prompt' is not assigned and could be declared final
+Z Project\WarehouseContext.java:37:	LocalVariableCouldBeFinal:	Local variable 'more' could be declared final
+Z Project\WarehouseContext.java:38:	SimplifyBooleanReturns:	This if statement can be replaced by `return !{condition};`
+Z Project\WarehouseContext.java:39:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\WarehouseContext.java:46:	LocalVariableCouldBeFinal:	Local variable 'tempWarehouse' could be declared final
+Z Project\WarehouseContext.java:48:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:51:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:54:	AvoidCatchingGenericException:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+Z Project\WarehouseContext.java:55:	AvoidPrintStackTrace:	Avoid printStackTrace(); use a logger call instead.
+Z Project\WarehouseContext.java:59:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:59:	MethodArgumentCouldBeFinal:	Parameter 'code' is not assigned and could be declared final
+Z Project\WarehouseContext.java:62:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:62:	MethodArgumentCouldBeFinal:	Parameter 'uID' is not assigned and could be declared final
+Z Project\WarehouseContext.java:65:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:68:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:72:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:73:	ConstructorCallsOverridableMethod:	This method may call an overridable method during object construction: WarehouseContext.getToken(String) (call stack: [WarehouseContext.yesOrNo(String), WarehouseContext.getToken(String)])
+Z Project\WarehouseContext.java:76:	AssignmentToNonFinalStatic:	Possible unsafe assignment to non-final static field 'warehouse' in a constructor.
+Z Project\WarehouseContext.java:93:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:93:	MethodArgumentCouldBeFinal:	Parameter 'transition' is not assigned and could be declared final
+Z Project\WarehouseContext.java:96:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:97:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:100:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:102:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:104:	ControlStatementBraces:	This statement should have braces
+Z Project\WarehouseContext.java:113:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:115:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:118:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:118:	DoNotTerminateVM:	System.exit() should not be used in J2EE/JEE apps
+Z Project\WarehouseContext.java:121:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:122:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\WarehouseContext.java:123:	SystemPrintln:	Usage of System.out/err
+Z Project\WarehouseContext.java:129:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:133:	CommentRequired:	Public method and constructor comments are required
+Z Project\WarehouseContext.java:134:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'WarehouseContext': 'instance' is already in scope
+Z Project\WarehouseState.java:1:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\WarehouseState.java:1:	CommentRequired:	Class comments are required
+Z Project\WarehouseState.java:2:	MutableStaticState:	Do not use non-final non-private static fields
+Z Project\WarehouseState.java:2:	CommentRequired:	Field comments are required
+Z Project\WarehouseState.java:3:	CommentRequired:	Protected method constructor comments are required
+Z Project\WarehouseState.java:6:	CommentRequired:	Public method and constructor comments are required
+Z Project\Wishlist.java:3:	UnnecessaryImport:	Unused import 'java.util.Collections'
+Z Project\Wishlist.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\Wishlist.java:4:	CommentRequired:	Class comments are required
+Z Project\Wishlist.java:4:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\Wishlist.java:4:	AtLeastOneConstructor:	Each class should declare at least one constructor
+Z Project\Wishlist.java:5:	ImmutableField:	Field 'wishes' may be declared final
+Z Project\Wishlist.java:5:	CommentRequired:	Field comments are required
+Z Project\Wishlist.java:5:	UseDiamondOperator:	Raw type use may be avoided by using a diamond: `new LinkedList<>()`
+Z Project\Wishlist.java:6:	ImmutableField:	Field 'copyList' may be declared final
+Z Project\Wishlist.java:6:	CommentRequired:	Field comments are required
+Z Project\Wishlist.java:7:	CommentRequired:	Field comments are required
+Z Project\Wishlist.java:7:	AvoidFieldNameMatchingTypeName:	It is somewhat confusing to have a field name matching the declaring class name
+Z Project\Wishlist.java:12:	CommentRequired:	Public method and constructor comments are required
+Z Project\Wishlist.java:13:	NonThreadSafeSingleton:	Singleton is not thread safe
+Z Project\Wishlist.java:14:	OnlyOneReturn:	A method should have only one exit point, and that should be the last statement in the method
+Z Project\Wishlist.java:14:	UselessParentheses:	Useless parentheses.
+Z Project\Wishlist.java:20:	CommentRequired:	Public method and constructor comments are required
+Z Project\Wishlist.java:20:	MethodArgumentCouldBeFinal:	Parameter 'item' is not assigned and could be declared final
+Z Project\Wishlist.java:25:	CommentRequired:	Public method and constructor comments are required
+Z Project\Wishlist.java:29:	CommentRequired:	Public method and constructor comments are required
+Z Project\Wishlist.java:29:	MethodArgumentCouldBeFinal:	Parameter 'wish' is not assigned and could be declared final
+Z Project\Wishlist.java:32:	UnnecessaryLocalBeforeReturn:	Consider simply returning the value vs storing it in local variable 'removed'
+Z Project\Wishlist.java:32:	LocalVariableCouldBeFinal:	Local variable 'removed' could be declared final
+Z Project\informationList.java:4:	NoPackage:	All classes, interfaces, enums and annotations must belong to a named package
+Z Project\informationList.java:4:	CommentRequired:	Class comments are required
+Z Project\informationList.java:4:	MissingSerialVersionUID:	Classes implementing Serializable should set a serialVersionUID
+Z Project\informationList.java:4:	ClassNamingConventions:	The class name 'informationList' doesn't match '[A-Z][a-zA-Z0-9]*'
+Z Project\informationList.java:5:	ImmutableField:	Field 'obj' may be declared final
+Z Project\informationList.java:5:	CommentRequired:	Field comments are required
+Z Project\informationList.java:5:	UnusedAssignment:	The field initializer for 'obj' is never used (overwritten on line 9)
+Z Project\informationList.java:5:	UseDiamondOperator:	Raw type use may be avoided by using a diamond: `new LinkedList<>()`
+Z Project\informationList.java:8:	CommentRequired:	Public method and constructor comments are required
+Z Project\informationList.java:8:	MethodArgumentCouldBeFinal:	Parameter 'list' is not assigned and could be declared final
+Z Project\informationList.java:12:	CommentRequired:	Public method and constructor comments are required
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [CompilationUnit:1:1]import java.util.*;
+import java.text.*;
+import java.io.*;
+import java.util.Scanner;
+public class LoginState extends WarehouseState{
+    pri(truncated)]
+---------------------------------
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [FieldDeclaration:10:28]private BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));]
+---------------------------------
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [FieldDeclaration:11:30]private WarehouseContext context;]
+---------------------------------
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [CompilationUnit:1:1]import java.util.*;
+import java.text.*;
+import java.io.*;
+import java.util.Scanner;
+public class LoginState extends WarehouseState{
+    pri(truncated)]
+---------------------------------
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [ClassOrInterfaceDeclaration:5:8]public class LoginState extends WarehouseState{
+    private static final int CLERK_LOGIN = 1;
+    private static final int MANAGER_LOGIN = (truncated)]
+---------------------------------
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [AssignmentExpression:89:13]verifyPassword(userName, password, "clerk") = true]
+---------------------------------
+Z Project\LoginState.java	-	ContextedRuntimeException: java.lang.ClassCastException: class net.sourceforge.pmd.lang.java.ast.ASTMethodCall cannot be cast to class net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr (net.sourceforge.pmd.lang.java.ast.ASTMethodCall and net.sourceforge.pmd.lang.java.ast.ASTAssignableExpr are in unnamed module of loader 'app')
+Exception Context:
+	[1:Rule applied on node=!debug only! [SwitchStatement:134:13]switch (command) {
+                case CLERK_LOGIN:       clerk();
+                    break;
+                case USER_LOGIN:        user(truncated)]
+---------------------------------
+LoosePackageCoupling	-	No packages or classes specified

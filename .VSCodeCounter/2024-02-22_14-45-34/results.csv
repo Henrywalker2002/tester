@@ -1,0 +1,25 @@
+"filename", "language", "Java", "comment", "blank", "total"
+"d:\project\tester\Z Project\AccountManager.java", "Java", 23, 0, 8, 31
+"d:\project\tester\Z Project\Catalog.java", "Java", 67, 4, 8, 79
+"d:\project\tester\Z Project\ClerkState.java", "Java", 186, 3, 21, 210
+"d:\project\tester\Z Project\ClientState.java", "Java", 250, 11, 24, 285
+"d:\project\tester\Z Project\InvoiceList.java", "Java", 24, 0, 6, 30
+"d:\project\tester\Z Project\Item.java", "Java", 43, 0, 10, 53
+"d:\project\tester\Z Project\LoginState.java", "Java", 140, 3, 14, 157
+"d:\project\tester\Z Project\ManagerState.java", "Java", 151, 1, 14, 166
+"d:\project\tester\Z Project\Member.java", "Java", 69, 1, 15, 85
+"d:\project\tester\Z Project\MemberIdServer.java", "Java", 49, 1, 1, 51
+"d:\project\tester\Z Project\MemberList.java", "Java", 71, 0, 15, 86
+"d:\project\tester\Z Project\Product.java", "Java", 61, 0, 14, 75
+"d:\project\tester\Z Project\ProductIdServer.java", "Java", 49, 1, 1, 51
+"d:\project\tester\Z Project\Record.java", "Java", 45, 0, 8, 53
+"d:\project\tester\Z Project\Shipment.java", "Java", 25, 0, 7, 32
+"d:\project\tester\Z Project\UserAccount.java", "Java", 19, 0, 5, 24
+"d:\project\tester\Z Project\UserInterface.java", "Java", 524, 112, 77, 713
+"d:\project\tester\Z Project\Waitlist.java", "Java", 37, 1, 17, 55
+"d:\project\tester\Z Project\Warehouse.java", "Java", 195, 20, 34, 249
+"d:\project\tester\Z Project\WarehouseContext.java", "Java", 114, 3, 28, 145
+"d:\project\tester\Z Project\WarehouseState.java", "Java", 6, 1, 2, 9
+"d:\project\tester\Z Project\Wishlist.java", "Java", 29, 4, 8, 41
+"d:\project\tester\Z Project\informationList.java", "Java", 11, 1, 4, 16
+"Total", "-", 2188, 167, 341, 2696

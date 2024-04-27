@@ -1,1 +1,4 @@
 .vscode
+__pycache__
+.venv
+auto_tool/auto_tool.egg-info/dependency_links.txt

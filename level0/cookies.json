@@ -1,0 +1,1 @@
+[{"domain": "school.moodledemo.net", "expiry": 1719389435, "httpOnly": false, "name": "MOODLEID1_", "path": "/", "sameSite": "Lax", "secure": false, "value": "%25E6%25D7%25E55%250E%25D2%25F2"}, {"domain": "school.moodledemo.net", "httpOnly": false, "name": "MoodleSession", "path": "/", "sameSite": "Lax", "secure": false, "value": "29fb13d745ff53a8791d5441731aacf8"}]

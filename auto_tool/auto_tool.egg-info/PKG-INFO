@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: auto_tool
+Version: 0.0.1
+Summary: A tool for automating test cases
+Author: Henry Walker
+Author-email: davisdavis448@gmail.com
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: selenium

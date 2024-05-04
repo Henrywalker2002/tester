@@ -33,6 +33,7 @@ class CommandChoices:
     WAIT_FOR_ELEMENT_NOT_PRESENT = 'wait_for_element_not_present'
     WAIT_FOR_ELEMENT_VISIBLE = 'wait_for_element_visible'
     WAIT_FOR_ELEMENT_NOT_VISIBLE = 'wait_for_element_not_visible'
+    FRAME = 'frame'
 
     validate_settings = {
         OPEN: ['target'],
@@ -54,7 +55,8 @@ class CommandChoices:
         WAIT_FOR_ELEMENT_PRESENT: ['target', 'amount'],
         WAIT_FOR_ELEMENT_NOT_PRESENT: ['target', 'amount'],
         WAIT_FOR_ELEMENT_VISIBLE: ['target', 'amount'],
-        WAIT_FOR_ELEMENT_NOT_VISIBLE: ['target', 'amount']
+        WAIT_FOR_ELEMENT_NOT_VISIBLE: ['target', 'amount'],
+        FRAME: ['target']
     }
 
     @staticmethod
@@ -258,4 +260,8 @@ class Command:
     def execute_wait_for_element_not_visible(self, target, amount, *args, **kwargs) -> dict:
         located = self.get_located(target)
         WebDriverWait(self.driver, amount).until_not(located)
+        return kwargs.get('store')
+
+    def execute_frame(self, target, *args, **kwargs) -> dict:
+        self.driver.switch_to.frame(target)
         return kwargs.get('store')

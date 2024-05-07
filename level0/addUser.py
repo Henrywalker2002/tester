@@ -1,6 +1,7 @@
 from base import BaseTestCase
-from auto_tool.command import CommandChoices
 from selenium.webdriver.common.by import By
+
+from auto_tool.command import CommandChoices
 
 
 class TestAddUser(BaseTestCase):
@@ -27,8 +28,8 @@ class TestAddUser(BaseTestCase):
         assert self.driver.current_url == "https://school.moodledemo.net/admin/user.php"
         self.command.execute(CommandChoices.CLICK, target = "xpath=//button[@title='Filters']")
         self.command.execute(CommandChoices.SELECT_OPTION, 
-                             target = "xpath=//select[@name='user:username_operator']", 
-                             value = "text=Is equal to")
+                            target = "xpath=//select[@name='user:username_operator']", 
+                            value = "text=Is equal to")
         self.command.execute(CommandChoices.TYPE, target = "xpath=//input[@name='user:username_value']", value = input["username"])
         self.command.execute(CommandChoices.CLICK, target = "xpath=//input[@value='Apply']")
         self.driver.find_element(By.XPATH, f"xpath=//td[text()='{input['email']}']")

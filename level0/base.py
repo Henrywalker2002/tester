@@ -1,10 +1,12 @@
-from typing import Optional
-from selenium.webdriver.edge.webdriver import WebDriver
-from selenium.webdriver.edge.service import Service
-from selenium.webdriver.edge.options import Options
+import json
+import time
 import unittest
-import time 
-import json 
+from typing import Optional
+
+from selenium.webdriver.edge.options import Options
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.edge.webdriver import WebDriver
+
 from auto_tool.command import Command, CommandChoices
 
 
@@ -17,7 +19,7 @@ class BaseTestCase(unittest.TestCase):
     
     @classmethod
     def setUpClass(cls):
-        super().setUpClass()    
+        super().setUpClass()
         options = Options()
         service = Service(executable_path='./msedgedriver.exe')
         cls.driver = WebDriver(service=service, options=options)

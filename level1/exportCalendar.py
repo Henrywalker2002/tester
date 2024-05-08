@@ -42,27 +42,26 @@ class TestExportCalendar(BaseTestCase):
         self.command.execute(CommandChoices.OPEN, target="https://school.moodledemo.net/calendar/export.php")
         self.command.execute(CommandChoices.PAUSE, amount=2)
 
-        if 'export_events_all' in data and data['export_events_all'].lower() == 'true':
+        if data['export_events_all'] == 'true':
             self.command.execute(CommandChoices.CLICK, target="xpath=//input[@id='id_events_exportevents_all']")
             self.command.execute(CommandChoices.PAUSE, amount=2)
 
-        if 'period_timeperiod_weeknow' in data and data['period_timeperiod_weeknow'].lower() == 'true':
+        if data['period_timeperiod_weeknow'] == 'true':
             self.command.execute(CommandChoices.CLICK, target="xpath=//input[@id='id_period_timeperiod_weeknow']")
             self.command.execute(CommandChoices.PAUSE, amount=2)
 
-        if 'click_export' in data and data['click_export'].lower() == 'true':
+        if data['click_export'] == 'true':
             self.command.execute(CommandChoices.CLICK, target="xpath=//input[@id='id_export']")
             self.command.execute(CommandChoices.PAUSE, amount=2)
 
-        if 'generate_url' in data and data['generate_url'].lower() == 'true':
+        if data['generate_url'] == 'true':
             self.command.execute(CommandChoices.CLICK, target="xpath=//input[@id='id_generateurl']")
             self.command.execute(CommandChoices.PAUSE, amount=2)
 
-        if 'assert_error_message' in data:
-            error_message = self.driver.find_element(By.ID, "fgroup_id_error_period").text
-            assert error_message == data['assert_error_message']
+        if data['assert_error_message'] == 'true':
+            assert self.driver.find_element(By.ID, "fgroup_id_error_period").text == 'Required'
             self.command.execute(CommandChoices.PAUSE, amount=2)
 
-        if 'open_home' in data and data['open_home'].lower() == 'true':
+        if data['open_home'] == 'true':
             self.command.execute(CommandChoices.OPEN, target="https://school.moodledemo.net/?redirect=0")
             self.command.execute(CommandChoices.PAUSE, amount=2)

@@ -9,5 +9,5 @@ from exportCalendar import TestExportCalendar
 from sendMessage import TestSendMessage
 
 if __name__ == "__main__":
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestSendMessage)
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestEditProfile)
     unittest.TextTestRunner(verbosity=3).run(suite)

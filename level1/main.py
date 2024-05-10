@@ -1,6 +1,3 @@
-import sys 
-
-sys.path.append('D:\project\\tester') # Add the parent directory to the path
 import unittest
 from addUser import TestAddUser
 

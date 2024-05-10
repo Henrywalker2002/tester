@@ -1,5 +1,5 @@
 from base import BaseTestCase
-from auto_tool.command import CommandChoices
+from command import CommandChoices
 from selenium.webdriver.common.by import By
 import copy
 
